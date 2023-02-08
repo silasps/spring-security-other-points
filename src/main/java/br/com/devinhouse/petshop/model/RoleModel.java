@@ -12,7 +12,8 @@ import java.util.List;
 
 @Entity
 @Getter
-@Setter@NoArgsConstructor
+@Setter
+@NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "role")
 public class RoleModel implements GrantedAuthority {
